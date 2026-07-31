@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family:'android';
+    src: url(../fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal ;
+}
+
+body{
+    background-color: #84E1AD;
+    margin: -21px 0px -18px 0px;
+    
+}
+
+header{
+    background: linear-gradient(to bottom, #60db97 0%,#2c9158 74%,#175231cb 100%) ;
+    color: white;
+    font-family: 'Bebas Neue' ;
+    padding: 2px;
+    margin: 0px;
+    
+}
+
+#h1{
+    text-align: center;
+    padding: 10px 10px 2px 10px;
+    margin-top:28px;
+    margin-bottom: 10px;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.582);
+}
+
+header > p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+    margin:auto;
+    padding:0px 0px 15px 0px ;
+    
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    
+    text-align: right;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+main{
+    background-color: white;
+    box-sizing: border-box;
+    width: clamp(485px, 100%, 850px);
+    padding: 20px;
+    margin:auto;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.342);
+}
+
+section> h1{
+    color: #1e7243;
+    font-family:'android', sans-serif;
+}
+
+h2{
+    color: #1e7243;
+    font-family: 'android';
+    background: linear-gradient(to right,#25834e67, white);
+}
+
+span{
+    font-weight: bold;
+    color: #207244;
+}
+
+a{
+    text-decoration: none;
+    color: #207244;
+    font-weight: bold;
+}
+
+p{
+    text-align: justify;
+    text-indent: 25px;
+    padding: 10px;
+}
+
+#img{
+    text-align:center ;
+}
+
+#video{
+    box-sizing: border-box;
+    background-color: #207244;
+    text-align: center;
+    margin: -20px;
+    
+}
+
+#extra{
+    background-color: #C5EBD6;
+    border-radius: 10px;
+    margin-top: 40px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.219);
+
+}
+
+h3{
+    background-color:#2FA866 ;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 10px 10px 0px 0px ;
+    color: white;
+    font-family: serif;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.452);
+}
+
+#android{
+    -webkit-box-align: center;
+}
+
+footer{
+    background-color: #1e7243;
+    margin: 0px;
+    
+}
+
+#ft{
+    text-align: center;
+    color: white;
+}

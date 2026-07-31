@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Midias</title>
+</head>
+<body>
+    <h1>Imagens Dinamicas</h1>
+    <p>Esta imagem se adapta ao tamanho de tela utilizado, tente aumentar ou diminuir o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagens-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagem-m.png" type="image/png">
+        <img src="imagens/imagem-g.png" alt="Imagem flexivel">
+    </picture>
+    <h1>Reproduzindo Áudios</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio preload="metadata" autoplay controls loop> <!--É necessario o autoplay para o loop funcionar-->
+        <source src="midia/hereitcomes.mp3" type="audio/mpeg">
+        <source src="midia/hereitcomes.ogg" type="audio/ogg">
+        <source src="midia/hereitcomes.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/hereitcomes.mp3">Clique aqui para baixar o arquivo mp3</a></p>
+    </audio>
+    <!-- MP2 WAV OGG-->
+     <h1>Reproduzindo Videos</h1>
+     <p>Vamos aprender a </p>
+</body>
+</html>
