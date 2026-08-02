@@ -46,7 +46,6 @@ header > nav >a{
     border-radius: 5px;
     border: auto;
     margin:auto;
-    font-weight: bold;
     transition: 0.5s;
 }
 
@@ -65,4 +64,10 @@ div{
     display: flex;
     margin-top: 20px;
     
+}
+
+div > h1{
+    box-sizing: border-box;
+    width: 800px;
+
 }
