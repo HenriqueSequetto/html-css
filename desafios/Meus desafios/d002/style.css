@@ -49,6 +49,13 @@ header > nav >a{
     transition: 0.5s;
 }
 
+main{
+    max-width: 1200px;
+    margin: auto;
+    min-width: 500px;
+
+}
+
 .tech{
     font-weight: bold;
     font-size: 2.2em;
@@ -63,11 +70,14 @@ header > nav >a{
 div{
     display: flex;
     margin-top: 20px;
+    text-align: justify;
+    height: 150px;
     
 }
 
 div > h1{
     box-sizing: border-box;
     width: 800px;
+    height: 150px;
 
 }
