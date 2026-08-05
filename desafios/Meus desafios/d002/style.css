@@ -68,6 +68,7 @@ main{
 }
 
 div{
+    position: relative;
     display: flex;
     margin-top: 20px;
     text-align: justify;
@@ -76,6 +77,7 @@ div{
 }
 
 div > h1{
+    position: absolute;
     box-sizing: border-box;
     width: 800px;
     height: 150px;
