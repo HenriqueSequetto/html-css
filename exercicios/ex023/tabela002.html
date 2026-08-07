@@ -13,7 +13,17 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
 
+        }
+
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 8px;
+            background-color: gray;
+            color: white;
+            border:1px solid black;
         }
 
         td, th{
@@ -21,9 +31,23 @@
             padding: 8px;
         }
 
+        tbody > tr:nth-child(even){
+            background-color: white;
+        }
+
+        tbody > tr:nth-child(odd){
+            background-color: lightgray;
+        }
+
         thead, tfoot{
-            background-color: gray;
+            background-color: rgb(58, 58, 58);
             color: white;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: rgb(58, 58, 58);
         }
 
         td.num{
@@ -36,6 +60,7 @@
     <!--
         ANATOMIA PARA TABELAS
         TABLE
+            CAPTION
             THEAD
                 TR, TD, TH
             TBODY
@@ -45,10 +70,11 @@
     -->
 
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 120px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -161,11 +187,25 @@
                 <td class="num">605 761</td>
             </tr>
         </tbody>
-    <tfoot>
-        <th>Total de Habitantes</th>
-        <td class="num"><strong>210 147 125</strong></td>
-    </tfoot>
+        <tfoot>
+            <th scope="row">Total de Habitantes</th>
+            <td class="num"><strong>210 147     125</strong></td>
+        </tfoot>
     </table>
-    
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda accusantium eligendi voluptas error magni ipsa iste repellat quidem illum, voluptatum, a soluta minima dolores! Possimus quam dignissimos est assumenda incidunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto soluta incidunt iusto possimus, dolore recusandae ad reiciendis vitae blanditiis! Quod, architecto. Veritatis illum consequatur dolore cum optio aspernatur quaerat saepe. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro voluptatibus molestias ducimus officia laboriosam, ut laudantium quia sequi, quaerat enim sit, suscipit amet. Nostrum distinctio at eos fugit suscipit quaerat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate ipsum culpa sapiente perferendis nobis quidem cupiditate accusantium ullam iusto laudantium possimus, ea nam non deserunt eum? Minima veniam voluptas soluta!
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda accusantium eligendi voluptas error magni ipsa iste repellat quidem illum, voluptatum, a soluta minima dolores! Possimus quam dignissimos est assumenda incidunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto soluta incidunt iusto possimus, dolore recusandae ad reiciendis vitae blanditiis! Quod, architecto. Veritatis illum consequatur dolore cum optio aspernatur quaerat saepe. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro voluptatibus molestias ducimus officia laboriosam, ut laudantium quia sequi, quaerat enim sit, suscipit amet. Nostrum distinctio at eos fugit suscipit quaerat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate ipsum culpa sapiente perferendis nobis quidem cupiditate accusantium ullam iusto laudantium possimus, ea nam non deserunt eum? Minima veniam voluptas soluta!
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda accusantium eligendi voluptas error magni ipsa iste repellat quidem illum, voluptatum, a soluta minima dolores! Possimus quam dignissimos est assumenda incidunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto soluta incidunt iusto possimus, dolore recusandae ad reiciendis vitae blanditiis! Quod, architecto. Veritatis illum consequatur dolore cum optio aspernatur quaerat saepe. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro voluptatibus molestias ducimus officia laboriosam, ut laudantium quia sequi, quaerat enim sit, suscipit amet. Nostrum distinctio at eos fugit suscipit quaerat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate ipsum culpa sapiente perferendis nobis quidem cupiditate accusantium ullam iusto laudantium possimus, ea nam non deserunt eum? Minima veniam voluptas soluta!
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda accusantium eligendi voluptas error magni ipsa iste repellat quidem illum, voluptatum, a soluta minima dolores! Possimus quam dignissimos est assumenda incidunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto soluta incidunt iusto possimus, dolore recusandae ad reiciendis vitae blanditiis! Quod, architecto. Veritatis illum consequatur dolore cum optio aspernatur quaerat saepe. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro voluptatibus molestias ducimus officia laboriosam, ut laudantium quia sequi, quaerat enim sit, suscipit amet. Nostrum distinctio at eos fugit suscipit quaerat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate ipsum culpa sapiente perferendis nobis quidem cupiditate accusantium ullam iusto laudantium possimus, ea nam non deserunt eum? Minima veniam voluptas soluta!
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda accusantium eligendi voluptas error magni ipsa iste repellat quidem illum, voluptatum, a soluta minima dolores! Possimus quam dignissimos est assumenda incidunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto soluta incidunt iusto possimus, dolore recusandae ad reiciendis vitae blanditiis! Quod, architecto. Veritatis illum consequatur dolore cum optio aspernatur quaerat saepe. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro voluptatibus molestias ducimus officia laboriosam, ut laudantium quia sequi, quaerat enim sit, suscipit amet. Nostrum distinctio at eos fugit suscipit quaerat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate ipsum culpa sapiente perferendis nobis quidem cupiditate accusantium ullam iusto laudantium possimus, ea nam non deserunt eum? Minima veniam voluptas soluta!
+    </p>
 </body>
 </html>
